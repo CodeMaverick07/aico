@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron&family=Syne&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply overflow-x-hidden;
+}
+
+.connect {
+  border: 1px solid;
+  border-image: linear-gradient(288deg, rgba(53, 144, 243, 0.6), transparent);
+  border-image-slice: 1;
+
+  background: linear-gradient(
+    288deg,
+    rgba(53, 144, 243, 0.15) 41.79%,
+    rgba(53, 144, 243, 0.03) 78.82%
+  );
+  backdrop-filter: blur(4px);
+}
+
+.shadow {
+  text-shadow: 0 -2px 13px white;
+}
