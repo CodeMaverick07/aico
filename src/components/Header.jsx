@@ -7,7 +7,7 @@ const Header = () => {
   
   return (
     <>
-      <header className=" text-white/60 font-mic text-3xl fixed z-10">
+      <header className=" text-white/60 font-mic text-2xl fixed z-10">
         <div className="flex justify-between items-center mt-5 mx-20">
           <div className="text-xl flex">
             <Link
